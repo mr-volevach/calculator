@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "currency": "USD",
+    "payment": "every_month",
+    "from": 3,
+    "to": 5,
+    "rate": 12
+  },
+  {
+    "id": 2,
+    "currency": "UAH",
+    "payment": "every_month",
+    "from": 3,
+    "to": 5,
+    "rate": 21
+  },
+  {
+    "id": 3,
+    "currency": "USD",
+    "payment": "end_term",
+    "from": 3,
+    "to": 5,
+    "rate": 13
+  },
+  {
+    "id": 4,
+    "currency": "UAH",
+    "payment": "end_term",
+    "from": 3,
+    "to": 5,
+    "rate": 22
+  },
+  {
+    "id": 5,
+    "currency": "USD",
+    "payment": "every_month",
+    "from": 6,
+    "to": 11,
+    "rate": 16
+  },
+  {
+    "id": 6,
+    "currency": "UAH",
+    "payment": "every_month",
+    "from": 6,
+    "to": 11,
+    "rate": 23
+  },
+  {
+    "id": 7,
+    "currency": "USD",
+    "payment": "end_term",
+    "from": 6,
+    "to": 11,
+    "rate": 17
+  },
+  {
+    "id": 8,
+    "currency": "UAH",
+    "payment": "end_term",
+    "from": 6,
+    "to": 11,
+    "rate": 24
+  },
+  {
+    "id": 9,
+    "currency": "USD",
+    "payment": "every_month",
+    "from": 12,
+    "to": 23,
+    "rate": 18
+  },
+  {
+    "id": 10,
+    "currency": "UAH",
+    "payment": "every_month",
+    "from": 12,
+    "to": 23,
+    "rate": 25
+  },
+  {
+    "id": 11,
+    "currency": "USD",
+    "payment": "end_term",
+    "from": 12,
+    "to": 23,
+    "rate": 20
+  },
+  {
+    "id": 12,
+    "currency": "UAH",
+    "payment": "end_term",
+    "from": 12,
+    "to": 23,
+    "rate": 27
+  },
+  {
+    "id": 17,
+    "currency": "USD",
+    "payment": "every_month",
+    "from": 24,
+    "to": 35,
+    "rate": 19
+  },
+  {
+    "id": 18,
+    "currency": "UAH",
+    "payment": "every_month",
+    "from": 24,
+    "to": 35,
+    "rate": 28
+  },
+  {
+    "id": 19,
+    "currency": "USD",
+    "payment": "end_term",
+    "from": 24,
+    "to": 35,
+    "rate": 21
+  },
+  {
+    "id": 20,
+    "currency": "UAH",
+    "payment": "end_term",
+    "from": 24,
+    "to": 35,
+    "rate": 30
+  },
+  {
+    "id": 13,
+    "currency": "USD",
+    "payment": "every_month",
+    "from": 36,
+    "to": 36,
+    "rate": 20
+  },
+  {
+    "id": 14,
+    "currency": "UAH",
+    "payment": "every_month",
+    "from": 36,
+    "to": 36,
+    "rate": 31
+  },
+  {
+    "id": 15,
+    "currency": "USD",
+    "payment": "end_term",
+    "from": 36,
+    "to": 36,
+    "rate": 22
+  },
+  {
+    "id": 16,
+    "currency": "UAH",
+    "payment": "end_term",
+    "from": 36,
+    "to": 36,
+    "rate": 33
+  }
+]
