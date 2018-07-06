@@ -1,0 +1,149 @@
+/* Layout */
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+body {
+    font-size: 14px;
+}
+
+hr {
+    height: 1px;
+    background-color: #ebebeb;
+    border: none;
+    margin: 20px 0;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.layout {
+    max-width: 1310px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout__row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.layout__col {
+    --one-column: calc(100% / 12);
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.layout__col--1 {
+    width: var(--one-column);
+}
+
+.layout__col--2 {
+    width: calc(var(--one-column) * 2);
+}
+
+.layout__col--3 {
+    width: calc(var(--one-column) * 3);
+}
+
+.layout__col--4 {
+    width: calc(var(--one-column) * 4);
+}
+
+.layout__col--5 {
+    width: calc(var(--one-column) * 5);
+}
+
+.layout__col--6 {
+    width: calc(var(--one-column) * 6);
+}
+
+.layout__col--7 {
+    width: calc(var(--one-column) * 7);
+}
+
+.layout__col--8 {
+    width: calc(var(--one-column) * 8);
+}
+
+.layout__col--9 {
+    width: calc(var(--one-column) * 9);
+}
+
+.layout__col--10 {
+    width: calc(var(--one-column) * 10);
+}
+
+.layout__col--11 {
+    width: calc(var(--one-column) * 11);
+}
+
+.layout__col--12 {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .layout__row {
+        flex-direction: column;
+    }
+    div[class*="layout__col--"] {
+        width: 100%;
+    }
+}
+
+/* form */
+.form__panel {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 2px 5px 0px rgba(201,201,201,1);
+    margin: 0 auto;
+}
+
+.form__attention {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form__group {
+    justify-content: center;
+    align-items: center;
+}
+
+.form__group:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    font-weight: bold;
+}
+
+.form__hint {
+    font-size: 12px;
+    color: #ccc;
+}
