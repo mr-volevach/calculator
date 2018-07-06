@@ -1,0 +1,19 @@
+.ui-radio {
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 25px;
+    cursor: default;
+    outline: none;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+.ui-radio:hover,
+.ui-radio:focus {
+    background-color: #97be60;
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(151, 190, 96, 1);
+}
+.ui-radio[aria-checked="true"] {
+    background-color: #97be60;
+    color: #fff;
+}
