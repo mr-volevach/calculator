@@ -9,17 +9,17 @@ import indexReducer from './reducers/index';
 
 import {
     Route,
-    BrowserRouter as Router
+    BrowserRouter as Router,
 } from 'react-router-dom';
 
 class App extends Component {
     render() {
         return (
             <Provider store={createStore(indexReducer, applyMiddleware(thunk))}>
-                <Router basename="/calculator">
+                <Router>
                     <div>
-                        <Route path="/" exact component={Home}/>
-                        <Route path="/complete" component={Complete}/>
+                        <Route path="/calculator/" exact component={Home}/>
+                        <Route path="/calculator/complete" component={Complete}/>
                     </div>
                 </Router>
             </Provider>
