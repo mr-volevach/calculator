@@ -16,7 +16,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={createStore(indexReducer, applyMiddleware(thunk))}>
-                <Router>
+                <Router basename="/calculator">
                     <div>
                         <Route path="/" exact component={Home}/>
                         <Route path="/complete" component={Complete}/>
