@@ -123,7 +123,7 @@ export function fetchRates() {
     return function (dispatch) {
         dispatch(requestRates());
 
-        return fetch(`/rates.json`)
+        return fetch(`/calculator/rates.json`)
             .then(response => response.json())
             .then(json => dispatch(receiveRates(json)))
             .then(() => dispatch(findRate()))
