@@ -19,5 +19,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://mr-volevach.github.io/calculator"
+  "homepage": "https://mr-volevach.github.io/calculator"
 }
